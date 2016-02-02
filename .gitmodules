@@ -1,0 +1,3 @@
+[submodule "Assets/Packages/Arcanix"]
+	path = Assets/Packages/Arcanix
+	url = https://github.com/Guema/Arcanix
