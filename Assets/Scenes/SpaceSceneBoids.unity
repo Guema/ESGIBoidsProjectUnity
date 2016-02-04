@@ -85,24 +85,1177 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &11241229
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 11241230}
+  - 114: {fileID: 11241231}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &11241230
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 11241229}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1796469009}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+--- !u!114 &11241231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 11241229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bde249214084c7547ace2524c2189de6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &13829920 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 1409508234}
+--- !u!4 &28575930 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 253140521}
+--- !u!1001 &34637078
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 42.434456
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -30.878178
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (15)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &74293922 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 2051047454}
+--- !u!4 &90414000 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 257717680}
+--- !u!1001 &113979868
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 70.83446
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -61.878178
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (13)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &113997958
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 146.33446
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -8.978178
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 51
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (51)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &179401893 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 312387916}
+--- !u!1001 &202341103
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 169.13446
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -85.57818
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (41)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &206732492
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 63.634453
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -23.478178
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (17)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &219027876
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 110.33446
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -68.878174
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (32)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &248386574 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 1346231668}
+--- !u!1001 &253140521
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 157.03445
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -44.97818
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (40)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &257717680
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 68.33446
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -101.17818
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (21)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &279152740 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 206732492}
+--- !u!4 &299177156 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 1680828726}
+--- !u!1001 &312387916
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 120.034454
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -90.07818
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (20)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &320507012 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 561934462}
+--- !u!1001 &329519308
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 53.334454
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 44.02182
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 49
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (49)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &369821544 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 1624204432}
+--- !u!1 &375201305
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 375201306}
+  m_Layer: 0
+  m_Name: Empire
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &375201306
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 375201305}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -95.534454, y: -93.253235, z: 28.078178}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1063554919}
+  - {fileID: 1460084062}
+  - {fileID: 652482331}
+  - {fileID: 1416520690}
+  - {fileID: 1457845305}
+  - {fileID: 1742067689}
+  - {fileID: 869651775}
+  - {fileID: 13829920}
+  - {fileID: 320507012}
+  - {fileID: 1237929648}
+  - {fileID: 1379722704}
+  - {fileID: 1113614260}
+  - {fileID: 1112590013}
+  - {fileID: 1084913721}
+  - {fileID: 584078299}
+  - {fileID: 1624928067}
+  - {fileID: 1061997576}
+  - {fileID: 279152740}
+  - {fileID: 369821544}
+  - {fileID: 718957597}
+  - {fileID: 179401893}
+  - {fileID: 90414000}
+  - {fileID: 1170845025}
+  - {fileID: 376928566}
+  - {fileID: 1037357509}
+  - {fileID: 529975965}
+  - {fileID: 397669110}
+  - {fileID: 299177156}
+  - {fileID: 1530450327}
+  - {fileID: 1665010739}
+  - {fileID: 1321423341}
+  - {fileID: 2065464205}
+  - {fileID: 698017361}
+  - {fileID: 447377962}
+  - {fileID: 1061760633}
+  - {fileID: 1750135341}
+  - {fileID: 248386574}
+  - {fileID: 1804236591}
+  - {fileID: 814211309}
+  - {fileID: 2101589788}
+  - {fileID: 28575930}
+  - {fileID: 1449842488}
+  - {fileID: 2132230339}
+  - {fileID: 604773455}
+  - {fileID: 1724473265}
+  - {fileID: 74293922}
+  - {fileID: 771243292}
+  - {fileID: 1877737796}
+  - {fileID: 921372114}
+  - {fileID: 1744124546}
+  - {fileID: 1583363096}
+  - {fileID: 1175261548}
+  - {fileID: 1897250504}
+  - {fileID: 1010529004}
+  - {fileID: 1078834916}
+  - {fileID: 770731659}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &376928566 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 518133131}
+--- !u!1001 &389117316
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 103.83446
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 101.183235
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -47.47818
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &397669110 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 750061457}
+--- !u!1001 &404687773
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 52.334454
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 9.321823
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (48)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &425761312
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 60.434456
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -40.678177
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (14)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &447377962 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 862364865}
+--- !u!1001 &451096360
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 77.73445
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -129.67818
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 44
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (44)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &474884227
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 162.03445
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -39.57818
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (38)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &484354265
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 141.53445
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -77.878174
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (19)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &518133131
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 55.134453
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -62.07818
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (23)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &529975965 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 1432539949}
+--- !u!1001 &561934462
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 97.534454
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -15.178179
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &581580330
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 22.134453
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 11.621822
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (28)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &583271238
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 76.23445
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -18.878178
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &584078299 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 425761312}
+--- !u!1001 &595745251
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 124.434456
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -152.57819
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (54)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &604773455 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 905692395}
 --- !u!1001 &619204499
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 375201306}
     m_Modifications:
     - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -19.4
+      value: 76.13445
       objectReference: {fileID: 0}
     - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 122.45323
       objectReference: {fileID: 0}
     - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 20.8
+      value: -7.278179
       objectReference: {fileID: 0}
     - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
       propertyPath: m_LocalRotation.x
@@ -131,24 +1284,328 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &652482331 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 619204499}
+--- !u!4 &698017361 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 219027876}
+--- !u!1001 &704291568
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 23.834457
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -101.67818
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (22)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &711229654
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 69.004456
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 102.10323
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -45.41818
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &718957597 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 484354265}
+--- !u!1001 &750061457
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 97.83446
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -90.67818
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (26)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &770731659 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 817854709}
+--- !u!4 &771243292 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 1238485912}
+--- !u!4 &814211309 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 474884227}
+--- !u!1001 &817854709
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 53.134453
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -155.37817
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (55)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &862364865
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 123.63445
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -128.77817
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (33)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &869651775 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 711229654}
+--- !u!1001 &889024709
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 80.394455
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 83.573235
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -33.568176
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &902794601
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 375201306}
     m_Modifications:
     - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -12.2
+      value: 83.33446
       objectReference: {fileID: 0}
     - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 93.253235
       objectReference: {fileID: 0}
     - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -29
+      value: -57.07818
       objectReference: {fileID: 0}
     - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
       propertyPath: m_LocalRotation.x
@@ -177,24 +1634,294 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &905692395
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 159.93445
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -133.57819
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 43
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (43)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &921372114 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 404687773}
+--- !u!1001 &934769917
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 109.63445
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 8.02182
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (50)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &973845744
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 149.93445
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -29.378178
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (35)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1010529004 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 1587496210}
+--- !u!4 &1037357509 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 1082899077}
+--- !u!4 &1061760633 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 1466730754}
+--- !u!4 &1061997576 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 1801547971}
+--- !u!4 &1063554919 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 1163484157}
+--- !u!4 &1078834916 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 595745251}
+--- !u!1001 &1082899077
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 84.034454
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -56.178177
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (24)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1084913721 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 113979868}
+--- !u!4 &1112590013 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 1716305582}
+--- !u!4 &1113614260 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 1618132804}
+--- !u!1001 &1162694480
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 18.434456
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -24.078178
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 47
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (47)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &1163484157
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 375201306}
     m_Modifications:
     - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 95.534454
       objectReference: {fileID: 0}
     - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 81.05324
       objectReference: {fileID: 0}
     - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -28.078178
       objectReference: {fileID: 0}
     - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
       propertyPath: m_LocalRotation.x
@@ -219,24 +1946,964 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &1170845025 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 704291568}
+--- !u!4 &1175261548 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 113997958}
+--- !u!4 &1237929648 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 583271238}
+--- !u!1001 &1238485912
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -9.065544
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -70.47818
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 46
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (46)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1308154140
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 165.83446
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -51.57818
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 52
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (52)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1321423341 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 1506947074}
+--- !u!1001 &1346231668
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 125.73445
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 20.72182
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (36)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1379722704 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 2111740144}
+--- !u!1001 &1409508234
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 120.934456
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -29.078178
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1416520690 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 902794601}
+--- !u!1001 &1432539949
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 119.73445
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 30.121822
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (25)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1449842488 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 202341103}
+--- !u!4 &1457845305 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 889024709}
+--- !u!4 &1460084062 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 1835023021}
+--- !u!1001 &1466730754
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 146.33446
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -82.07818
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (34)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1506947074
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 64.534454
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 38.321823
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (30)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1530450327 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 581580330}
+--- !u!4 &1583363096 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 934769917}
+--- !u!1001 &1587496210
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 146.83446
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -106.97818
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 53
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (53)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1595201365
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 55.734455
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1.021822
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (29)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1618132804
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 126.83446
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -59.57818
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1624204432
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 136.53445
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -45.378178
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (18)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1624928067 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 34637078}
+--- !u!4 &1665010739 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 1595201365}
+--- !u!1001 &1680828726
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 27.734451
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -85.27818
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (27)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1688330172
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 157.33446
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -81.17818
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 39
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (39)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1716305582
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 97.434456
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -56.678177
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (12)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1724473265 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 451096360}
+--- !u!4 &1742067689 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 389117316}
+--- !u!4 &1744124546 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 329519308}
+--- !u!4 &1750135341 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 973845744}
+--- !u!1001 &1791328449
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 91.034454
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 9.02182
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (31)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &1796469008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1796469009}
+  - 20: {fileID: 1796469013}
+  - 124: {fileID: 1796469012}
+  - 92: {fileID: 1796469011}
+  - 81: {fileID: 1796469010}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1796469009
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1796469008}
+  m_LocalRotation: {x: 0.6427877, y: 0, z: 0, w: 0.7660444}
+  m_LocalPosition: {x: 0, y: 100, z: -20}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 11241230}
+  m_RootOrder: 0
+--- !u!81 &1796469010
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1796469008}
+  m_Enabled: 1
+--- !u!92 &1796469011
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1796469008}
+  m_Enabled: 1
+--- !u!124 &1796469012
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1796469008}
+  m_Enabled: 1
+--- !u!20 &1796469013
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1796469008}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
+--- !u!1001 &1801547971
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 28.834457
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -57.27818
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (16)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1801581031
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 148.23445
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1.9218216
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (37)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1804236591 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 1801581031}
 --- !u!1001 &1835023021
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 375201306}
     m_Modifications:
     - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -36.9
+      value: 58.634453
       objectReference: {fileID: 0}
     - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 93.253235
       objectReference: {fileID: 0}
     - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -8.2
+      value: -36.27818
       objectReference: {fileID: 0}
     - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
       propertyPath: m_LocalRotation.x
@@ -265,3 +2932,161 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &1877737796 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 1162694480}
+--- !u!4 &1897250504 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 1308154140}
+--- !u!1001 &1915835591
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 111.73445
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -144.17818
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (42)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &2051047454
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 26.534454
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -126.87818
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (45)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &2065464205 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 1791328449}
+--- !u!4 &2101589788 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 1688330172}
+--- !u!1001 &2111740144
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 375201306}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 101.034454
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 81.05324
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -41.878178
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &2132230339 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_PrefabInternal: {fileID: 1915835591}
