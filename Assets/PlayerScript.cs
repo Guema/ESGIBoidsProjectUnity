@@ -10,8 +10,8 @@ public class PlayerScript : MonoBehaviour
 	
 	void Update ()
     {
-        Vector3 movement = (BoidsSquadManager.Instance.GetSquadCenter("Empire") - transform.position) / 3.0f;
-        transform.position += movement * Time.deltaTime;
+        Vector3 movement = (BoidsSquadManager.Instance.GetSquadCenter("Empire") - transform.position);
+        transform.position += movement * Time.deltaTime * 5.0f;
 	}
 
     void OnDrawGizmos()
