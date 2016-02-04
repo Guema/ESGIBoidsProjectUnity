@@ -16,7 +16,10 @@ public class PlayerScript : MonoBehaviour
 
     void OnDrawGizmos()
     {
-        Gizmos.color = Color.blue;
-        Gizmos.DrawSphere(BoidsSquadManager.Instance.GetSquadCenter("Empire"), 5.0f);
+        if (Application.isPlaying)
+        {
+            Gizmos.color = Color.blue;
+            Gizmos.DrawSphere(BoidsSquadManager.Instance.GetSquadCenter("Empire"), 5.0f);
+        }
     }
 }
