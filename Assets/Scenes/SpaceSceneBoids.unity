@@ -85,7 +85,7 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &185379393
+--- !u!1001 &619204499
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -94,7 +94,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 48.8
+      value: -19.4
       objectReference: {fileID: 0}
     - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
       propertyPath: m_LocalPosition.y
@@ -102,7 +102,53 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 20.5
+      value: 20.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_Name
+      value: LittleFighterEmpire (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &902794601
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -12.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -29
       objectReference: {fileID: 0}
     - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
       propertyPath: m_LocalRotation.x
@@ -169,106 +215,6 @@ Prefab:
     - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
       propertyPath: m_RootOrder
       value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
-  m_IsPrefabParent: 0
---- !u!1001 &1370447815
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 8.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -29.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
-      propertyPath: m_Name
-      value: LittleFighterEmpire (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5433312, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
-      propertyPath: m_IsKinematic
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11412968, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
-      propertyPath: isDied
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
-  m_IsPrefabParent: 0
---- !u!1001 &1397609712
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -15.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 37.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 422428, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 184502, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
-      propertyPath: m_Name
-      value: LittleFighterEmpire (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}

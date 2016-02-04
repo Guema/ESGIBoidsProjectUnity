@@ -7,6 +7,7 @@ public class Boid : Controller
 {
     [SerializeField]
     Collider col;
+    [SerializeField]
     List<Boid> boids = new List<Boid>();
     Vector3 movement;
 
@@ -25,9 +26,9 @@ public class Boid : Controller
         Vector3 perceivedMassCenter = CalculatePerceivedMassCenter();
         
         Vector3 v1 = DoFirstRule(perceivedMassCenter);
-        //DoSecondRule(perceivedMassCenter);
+        Vector3 v2 = DoSecondRule(perceivedMassCenter);
         //DoThirdRule(perceivedMassCenter);
-        movement = movement + v1;
+        movement = movement + v1 + v2;
         movement.Normalize();
         transform.LookAt(transform.position + movement);
         transform.position += movement * Time.deltaTime * unit.GetSpeed();
@@ -64,16 +65,21 @@ public class Boid : Controller
     Vector3 DoFirstRule(Vector3 perceivedMassCenter)
     {
         Vector3 vec = new Vector3();
-        vec = (perceivedMassCenter - transform.position) / 100 ;
+        vec = (perceivedMassCenter - transform.position) / 100;
         return vec;
     }
 
-    void DoSecondRule(Vector3 perceivedMassCenter)
+    Vector3 DoSecondRule(Vector3 perceivedMassCenter)
     {
-        if ((transform.position - perceivedMassCenter).magnitude > 0.5f)
+        Vector3 vec = new Vector3(0.0f,0.0f,0.0f);
+        foreach (Boid item in boids)
         {
-            movement = (perceivedMassCenter - transform.position).normalized;
+            if ((item.transform.position.magnitude - transform.position.magnitude) < 1.0f)
+            {
+                vec = vec - (item.transform.position - transform.position).normalized;
+            }
         }
+        return vec;
     }
 
     void DoThirdRule(Vector3 perceivedMassCenter)
