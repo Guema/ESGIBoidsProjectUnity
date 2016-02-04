@@ -216,6 +216,14 @@ Prefab:
       propertyPath: m_Name
       value: LittleFighterEmpire (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5433312, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11412968, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
+      propertyPath: isDied
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e4f0760f43bfc364bb42271a58a31958, type: 2}
   m_IsPrefabParent: 0

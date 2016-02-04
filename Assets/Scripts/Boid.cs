@@ -8,7 +8,7 @@ public class Boid : Controller
     [SerializeField]
     Collider col;
     List<Boid> boids = new List<Boid>();
-    Vector3 direction;
+    Vector3 movement;
 
     void Reset()
     {
@@ -22,15 +22,15 @@ public class Boid : Controller
 
     void Update()
     {
-        Vector3 perceivedMassCenter = new Vector3();
-        foreach (Boid item in boids)
-        {
-            perceivedMassCenter += item.transform.position;
-        }
-        perceivedMassCenter = perceivedMassCenter / boids.Count;
-
-        //DoFirstRule(perceivedMassCenter);
-        DoSecondRule(perceivedMassCenter);
+        Vector3 perceivedMassCenter = CalculatePerceivedMassCenter();
+        
+        Vector3 v1 = DoFirstRule(perceivedMassCenter);
+        //DoSecondRule(perceivedMassCenter);
+        //DoThirdRule(perceivedMassCenter);
+        movement = movement + v1;
+        movement.Normalize();
+        transform.LookAt(transform.position + movement);
+        transform.position += movement * Time.deltaTime * unit.GetSpeed();
     }
 
     void OnTriggerEnter(Collider other)
@@ -50,22 +50,34 @@ public class Boid : Controller
         }
     }
 
-    void DoFirstRule(Vector3 perceivedMassCenter)
+    Vector3 CalculatePerceivedMassCenter()
     {
-        if ((transform.position - perceivedMassCenter).magnitude > 0.5f)
+        Vector3 vec = new Vector3();
+        foreach (Boid item in boids)
         {
-            
-            direction = (perceivedMassCenter - transform.position).normalized;
-            direction *= unit.GetSpeed();
-            transform.position += direction * Time.deltaTime;
+            vec += item.transform.position;
         }
+        vec = vec / boids.Count;
+        return vec;
+    }
+
+    Vector3 DoFirstRule(Vector3 perceivedMassCenter)
+    {
+        Vector3 vec = new Vector3();
+        vec = (perceivedMassCenter - transform.position) / 100 ;
+        return vec;
     }
 
     void DoSecondRule(Vector3 perceivedMassCenter)
     {
         if ((transform.position - perceivedMassCenter).magnitude > 0.5f)
         {
-            direction = (perceivedMassCenter - transform.position).normalized;
+            movement = (perceivedMassCenter - transform.position).normalized;
         }
+    }
+
+    void DoThirdRule(Vector3 perceivedMassCenter)
+    {
+
     }
 }
