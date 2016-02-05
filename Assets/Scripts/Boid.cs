@@ -2,14 +2,10 @@ using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
 
-[RequireComponent(typeof(Collider))]
-[RequireComponent(typeof(Rigidbody))]
 public class Boid : Controller
 {
     [SerializeField]
     Collider col;
-    [SerializeField]
-    List<Boid> boids = new List<Boid>();
     Vector3 movement = new Vector3();
     Vector3 perceivedMassCenter = new Vector3();
 
@@ -45,27 +41,12 @@ public class Boid : Controller
         transform.position += movement.normalized * Time.deltaTime * unit.GetSpeed();
     }
 
-    void OnTriggerEnter(Collider other)
-    {
-        if (other != col)
-        {
-            boids.Add(other.GetComponent<Boid>());
-        }
-    }
-
-    void OnTriggerExit(Collider other)
-    {
-        Boid b;
-        if (boids.Contains(b = other.GetComponent<Boid>()))
-        {
-            boids.Remove(b);
-        }
-    }
-
     #region _RULES_ALGORITHMS_
 
     Vector3 CalculatePerceivedMassCenter()
     {
+        
+        List<Boid> boids = BoidsSquadManager.Instance.GetSquad(unit.GetFaction());
         Vector3 vec = new Vector3();
         foreach (Boid item in boids)
         {
@@ -73,6 +54,7 @@ public class Boid : Controller
         }
         vec = vec / boids.Count;
         return vec;
+        
     }
 
     Vector3 DoFirstRule(Vector3 perceivedMassCenter)
@@ -83,6 +65,7 @@ public class Boid : Controller
 
     Vector3 DoSecondRule(Vector3 perceivedMassCenter)
     {
+        List<Boid> boids = BoidsSquadManager.Instance.GetSquad(unit.GetFaction());
         Vector3 vec = new Vector3();
         foreach (Boid item in boids)
         {
