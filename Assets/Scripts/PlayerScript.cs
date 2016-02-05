@@ -10,7 +10,7 @@ public class PlayerScript : MonoBehaviour
 	
 	void Update ()
     {
-        Vector3 movement = (BoidsSquadManager.Instance.GetSquadCenter("Empire") - transform.position);
+        Vector3 movement = (BoidsSquadManager.Instance.GetSquadCenter("Empire") / BoidsSquadManager.Instance.GetSquad("Empire").Count - transform.position);
         transform.position += movement * Time.deltaTime * 5.0f;
 	}
 
@@ -19,7 +19,7 @@ public class PlayerScript : MonoBehaviour
         if (Application.isPlaying)
         {
             Gizmos.color = Color.blue;
-            Gizmos.DrawSphere(BoidsSquadManager.Instance.GetSquadCenter("Empire"), 5.0f);
+            Gizmos.DrawSphere(BoidsSquadManager.Instance.GetSquadCenter("Empire") / BoidsSquadManager.Instance.GetSquad("Empire").Count, 5.0f);
         }
     }
 }
