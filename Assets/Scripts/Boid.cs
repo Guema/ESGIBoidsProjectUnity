@@ -26,7 +26,7 @@ public class Boid : Controller
 
     void OnDisable()
     {
-        BoidsSquadManager.Instance.UnRegister(this);
+        BoidsSquadManager.Instance.UnRegister(this, unit.GetFaction());
     }
 
     void Update()
@@ -65,7 +65,7 @@ public class Boid : Controller
 
     Vector3 DoSecondRule(Vector3 perceivedMassCenter)
     {
-        List<Boid> boids = BoidsSquadManager.Instance.GetSquad(unit.GetFaction());
+        List<Boid> boids = BoidsSquadManager.Instance.GetAllBoids();
         Vector3 vec = new Vector3();
         foreach (Boid item in boids)
         {

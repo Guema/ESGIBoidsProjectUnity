@@ -7,6 +7,7 @@ public class BoidsSquadManager
     private static BoidsSquadManager instance = null;
     Dictionary<string, List<Boid>> Squads = new Dictionary<string, List<Boid>>();
     Dictionary<string, Vector3> CentersOfSquads = new Dictionary<string, Vector3>();
+    List<Boid> AllBoids = new List<Boid>();
     float LastActualisation = 0.0f;
 
     private BoidsSquadManager()
@@ -41,6 +42,7 @@ public class BoidsSquadManager
         {
             Squads[squad] = new List<Boid>();
         }
+        AllBoids.Add(b);
         Squads[squad].Add(b);
     }
 
@@ -55,6 +57,7 @@ public class BoidsSquadManager
     public void UnRegister(Boid b, string squad)
     {
         Squads[squad].Remove(b);
+        AllBoids.Remove(b);
         if (Squads[squad].Count == 0)
         {
             Squads[squad] = null;
@@ -102,5 +105,15 @@ public class BoidsSquadManager
         List<Boid> l = null;
         Squads.TryGetValue(squad, out l);
         return l;
+    }
+
+    /// <summary>
+    /// Get list of all boids
+    /// </summary>
+    /// <param name="squad"></param>
+    /// <returns></returns>
+    public List<Boid> GetAllBoids()
+    {
+        return AllBoids;
     }
 }
